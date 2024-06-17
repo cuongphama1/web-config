@@ -1,0 +1,9 @@
+# api-chart/values.yaml
+
+image:
+  repository: cuong111111/web
+  tag: "1.5"
+  pullPolicy: IfNotPresent
+
+service:
+  nodePort: 30001
